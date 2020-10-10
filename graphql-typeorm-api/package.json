@@ -1,0 +1,10 @@
+{
+  "name": "graphql-typeorm-api",
+  "version": "1.0.0",
+  "description": "Creacòn de api con typescript, graphql, typeOrm y mysql",
+  "main": "src/index.ts",
+  "repository": "https://github.com/elboqueronpaco/DIGITALPACOApp.git",
+  "author": "elboqueronpaco",
+  "license": "MIT",
+  "private": false
+}
