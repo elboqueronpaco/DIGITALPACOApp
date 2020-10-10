@@ -27,11 +27,17 @@ o
 Las dependencia de desarrollo:
 
 ```bash
-    yarn add -D typescript ts-node ts-node-dev @types/express @types/node @types/node-dev
+    yarn add -D typescript ts-node ts-node-dev @types/express @types/node 
 ```
 
 o
 
 ```bash
-    npm i -D typescript ts-node ts-node-dev @types/express @types/node @types/node-dev
+    npm i -D typescript ts-node ts-node-dev @types/express @types/node 
+```
+
+### Configurar el Typescrip 
+
+```bash
+nxp tsc --init
 ```
