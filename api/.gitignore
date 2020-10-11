@@ -1,6 +1,9 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos,node,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos,node,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/yarn,node,macos,windows,linux,visualstudiocode,dotenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=yarn,node,macos,windows,linux,visualstudiocode,dotenv
+
+### dotenv ###
+.env
 
 ### Linux ###
 *~
@@ -117,7 +120,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
 .env.test
 .env*.local
 
@@ -195,4 +197,20 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,node,visualstudiocode
+### yarn ###
+# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
+
+# and uncomment the following lines
+# .pnp.*
+
+# End of https://www.toptal.com/developers/gitignore/api/yarn,node,macos,windows,linux,visualstudiocode,dotenv
